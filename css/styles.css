@@ -1,5 +1,62 @@
-h6{
+/* h6{
     color: white;
     font-size: 50px;
     background-color: aquamarine;
+} */
+
+.heading1{
+    color: red;
+    font-size: 50px;
+}
+.headingBg{
+    background-color: yellow;
+}
+.heading6{
+    color: red;
+    font-size: 60px;
+}
+
+ #heading5{
+    color: red;
+    font-size: 60px;
+    background-color: yellow;
+}
+
+.heading4{
+    color: red;
+    font-size: 60px;
+    background-color: yellow;
+}
+
+#heading4{
+    color:blue;
+    font-size: 60px;
+    background-color: yellow;  
+}
+
+.t_transform_uppercase{
+    text-transform: uppercase;
+}
+
+.t_transform_lowercase{
+    text-transform: lowercase;
+}
+
+.t_transform_capitilize{
+    text-transform: capitalize;
+}
+
+.t_d_overline{
+    text-decoration: overline;
+}
+.t_d_underline{
+    text-decoration: underline;
+}
+.t_d_lineThrough{
+    text-decoration: line-through;
+}
+.t_shadow1{
+    font-size: 50px;
+    color: blue;
+    text-shadow: 8px 5px 2px gray;
 }
