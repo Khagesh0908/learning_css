@@ -60,3 +60,51 @@
     color: blue;
     text-shadow: 8px 5px 2px gray;
 }
+.t_indent{
+    text-indent: 50px;
+    color: blue;
+}
+.t_letter_space{
+    letter-spacing: 13px;
+}
+.t_word_space{
+    word-spacing: 40px;
+}
+.t_line_height{
+    line-height: 30px;
+}
+.f_family1{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.f_family2{
+    font-family: fantasy;
+    font-style: inherit;
+}
+.f_family3{
+    font-family: cursive;
+}
+.t_shadow_Khagesh{
+    text-shadow: 5px 7px 10px red;
+}
+.b_shadow{
+    box-shadow: 8px 10px 10px gray;
+}
+.b_shadow{
+    box-shadow: 8px 10px 10px gray;
+}
+.d_shadow{
+    filter: drop-shadow(4px 8px 10px red);
+}
+.b_properties1{
+    border: 20px solid red;
+}
+.b_properties2{
+    border: 20px dotted red;
+}
+.b_properties3{
+    border: 20px inset red;
+}
+.b_properties4{
+    border: 20px inset red;
+}
