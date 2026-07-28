@@ -161,5 +161,24 @@
     position: fixed;
     bottom: 0px;
     right: 10px;
-
+}
+.flex-items{
+    background-color:yellowgreen;
+    width: 230px;
+    height: 150px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 40px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    /* space-evenly,space-between,space-around*/
+    list-style: none;
 }
