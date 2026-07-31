@@ -319,3 +319,95 @@ p::first-line{
 .box_6:hover{
     transform: scale(2)
 }
+#s_animation{
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    position: relative;
+    animation-name: movingbox;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+}
+@keyframes movingbox{
+    0%{
+        background-color: yellow;
+        left: 0px;
+        top: 0px;
+    }
+    25%{
+        background-color: red;
+        left: 300px;
+        top: 0px;
+    }
+    50%{
+        background-color: blue;
+        left: 300px;
+        top: 300px;
+    }
+    75%{
+        background-color: chocolate;
+        left: 0px;
+        top: 300px;
+    }
+    100%{
+        background-color: yellow;
+        left: 0px;
+        top: 0px;
+    }
+}
+ul{
+    width: 200px;
+    padding: 10px;
+    list-style-type: none;
+    font-weight: 700;
+}
+li{padding: 10px;
+    border: 2px solid red;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+li:nth-child(odd){
+    background-color: yellow;
+}
+li:nth-child(even){
+    background-color: black;
+    color: blanchedalmond;
+}
+li:nth-child(5){
+    background-color: blueviolet;
+}
+.text-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+    font-size: 80px;
+    font-weight: 800;
+    perspective: 100px;
+}
+.text-container > b {
+    height: 90px;
+    box-shadow: 0px 10px 5px gray;
+    /* background-color: green; */
+    background: linear-gradient(to right, orange,blue,green);
+    background-clip: text;
+    color: transparent;
+    transform-origin: bottom;
+    animation: getupdown 10s infinite;
+}
+
+.text-container > b:nth-child(1) { animation-delay: 0s;}
+    .text-container > b:nth-child(2) { animation-delay: 0.25s;}
+        .text-container > b:nth-child(3) { animation-delay: 0.50s;}
+            .text-container > b:nth-child(4) { animation-delay: 0.75s;}
+                .text-container > b:nth-child(5) { animation-delay: 1s;}
+                    .text-container > b:nth-child(6) { animation-delay: 1.25s;}
+                        .text-container > b:nth-child(7) { animation-delay: 1.50s;}
+
+            @keyframes getupdown{
+                from { transform: rotateX(-85deg);}
+                10%,50%{transform: rotateX(0);}
+                60%, to{transform: rotateX(-85deg);}
+            }
