@@ -351,7 +351,7 @@ p::first-line{
         top: 300px;
     }
     100%{
-        background-color: yellow;
+        background-image: yellow;
         left: 0px;
         top: 0px;
     }
@@ -411,3 +411,74 @@ li:nth-child(5){
                 10%,50%{transform: rotateX(0);}
                 60%, to{transform: rotateX(-85deg);}
             }
+
+.linear{
+    height: 300px;
+    background: linear-gradient(orange, white,green);
+}
+h1{
+    color: blue;
+    text-align: center;
+    padding-top: 100px;
+}
+.radial{
+    height: 600px;
+    background: radial-gradient(circle,black,orange,red,green)
+}
+.r_image{
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.conic {
+    height: 300px;
+    background: conic-gradient(
+        red,
+        orange,
+        yellow,
+        green,
+        blue,
+        indigo,
+        violet
+    );
+}
+.donut{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background: conic-gradient(red,yellow,green,blue);
+    mask: radial-gradient(circle 60px, transparent 60px,black 41px);
+}
+.container{
+    position: relative;
+    margin: 50px;
+}
+div{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+}
+.blue{
+    background-color:blue;
+    left: 50px;
+    z-index: 4;
+}
+.red{
+     background-color:red;
+    left: 90px;
+    z-index: 12;
+}
+.green{
+     background-color: green;
+    left: 130px;
+    z-index: 3;
+}
+.yellow{
+    background-color: yellow;
+    left: 160px;
+    z-index: 3;
+}
+
